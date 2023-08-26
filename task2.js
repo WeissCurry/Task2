@@ -16,6 +16,7 @@ let namaJadiArray = nama.split(" ")
 console.log(namaJadiArray[0])
 console.log(namaJadiArray[0] +" "+`Love Javascript`)
 console.log(nama[0])
+console.log(nama[nama.length - 1])
 
 // MENGUBAH TIPE DATA
 console.log(" ")
