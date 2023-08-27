@@ -40,7 +40,7 @@ let studentObject = {
 
 console.log(studentObject.name + " Adalah tipe data : " + typeof(studentObject.name))
 console.log(studentObject.age + " Adalah tipe data : " + typeof(studentObject.age))
-console.log(studentObject.status + " Adalah tipe data : " + typeof(studentObject.name))
+console.log(studentObject.status + " Adalah tipe data : " + typeof(studentObject.status))
 
 /* NUMBER */
 let angkaAngke = {
