@@ -97,4 +97,5 @@ if (angkaAngke.num5 % 2 != 0) {
 console.log(" ")
 console.log("RANDOM");
 console.log("dari 0 - 5, anda dapat : ")
-console.log(Math.floor(Math.random() * 5))
+console.log(Math.floor(Math.random() * 5))//math.floor : dibulatkan ke bawah
+
