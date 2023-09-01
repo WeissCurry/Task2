@@ -35,7 +35,13 @@ console.log(kalkulator(2, 5, "huwala humba"))
 /*
 2. Rubah function Konversi Celsius ke Fahrenheit menjadi arrow function dan currying
 */
+//ARROW
+let konversiSuhuArrow = (celcius) => (celcius * 1.8) + 32
 
+console.log("")
+console.log("Konversi Via Arrow")
+console.log(konversiSuhuArrow(100))
+//CURRYING
 const constnta1 = 1.8
 const constnta2 = 32
 let konversiSuhu = (celcius) => {
@@ -46,6 +52,7 @@ let konversiSuhu = (celcius) => {
     }
 }     
 console.log("")
+console.log("Konversi Currying")
 console.log(konversiSuhu(70)(constnta1)(constnta2))
 
 
